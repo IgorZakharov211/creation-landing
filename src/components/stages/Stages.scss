@@ -1,0 +1,156 @@
+.stages{
+  width: 1604px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  &__preview{
+    width: 400px;
+  }
+
+  &__title{
+    font-family: 'Literata', sans-serif;
+    font-size: 48px;
+    line-height: 1.5;
+    font-weight: 300;
+    color: #fff;
+    margin: 0;
+
+    &_span{ 
+      display: flex;
+      &::before{
+        background-image: url('./images/whiteStar.svg');
+        background-size: cover;
+        width: 25.07px;
+        height: 25.07px;
+        content: '';
+        margin: 26px 184px 0 0;
+      }
+      &::after{
+        background-image: url('./images/whiteStar.svg');
+        background-size: cover;
+        width: 25.07px;
+        height: 25.07px;
+        content: '';
+        margin: 26px 0 0 184px;
+      }
+    }
+  }
+
+  &__list{
+    margin: 32px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    counter-reset: my-counter;
+  }
+
+  &__item{
+    font-family: 'SegoeUI', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 400;
+    border-left: 1px solid rgba(255, 255, 255, .5);
+    padding: 0 0 0 36px;
+    box-sizing: border-box;
+    opacity: .5;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    transition: all .3s ease-out;
+
+
+    &::before{
+      content: counter(my-counter);
+      counter-increment: my-counter;
+      margin: 0 25px 0 0;
+    }
+
+    &:nth-of-type(10){
+      &::before{
+        margin: 0 16px 0 0;
+      }
+    }
+
+    &:nth-of-type(11){
+      padding: 0 0 0 36px;
+      &::before{
+        margin: 0 16px 0 0;
+      }
+    }
+
+    &:last-of-type{
+      margin: 0 0 
+    }
+
+    &:hover{
+      opacity: 1;
+    }
+
+    &_active{
+      opacity: 1;
+      font-weight: 600;
+      border-left: 1px solid rgba(255, 255, 255, 1);
+    }
+  }
+
+  &__button{
+    border: none;
+    cursor: pointer;
+    background: none;
+    color: #fff;
+    font-family: 'SegoeUI', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: 400;
+    transition: all .3s ease-out;
+
+    &_active{
+      font-weight: 600;
+    }
+  }
+
+  &__window{
+    width: 1144px;
+    min-height: 710px;
+    background-color: #22312C;
+    border-radius: 51px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &::after{
+      content: "";
+      background-image: url('../../images/star.svg');
+      background-size: cover;
+      width: 114px;
+      height: 114px;
+      margin: -215px 0 0 0;
+    }
+  }
+
+  &__image-border{
+    width: 1016px;
+    height: 404px;
+    margin: 64px 0 0 0;
+    overflow: hidden;
+    border-radius: 51px;
+    margin: 54px 0 54px 0;
+  }
+
+  &__image{
+    width: 1016px;
+  }
+
+  &__subtitle{
+    color: #fff;
+    opacity: .5;
+    font-family: 'SegoeUI', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 8px 0 0 0;
+  }
+}

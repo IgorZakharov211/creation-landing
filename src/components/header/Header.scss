@@ -1,0 +1,19 @@
+.header{
+  height: 100px;
+  box-sizing: border-box;
+
+  &__container{
+    margin: 0 auto 0 auto;
+    padding: 48px 0 0 0;
+    width: 1604px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+
+  &__logo{
+    margin: 0 0 0 -12px;
+  }
+}

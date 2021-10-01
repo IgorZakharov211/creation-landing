@@ -1,0 +1,78 @@
+.banner{
+  width: 100%;
+  background-image: url('./images/banner.jpg');
+  background-size: cover;
+  height: 1046px;
+  padding: 292px 0 0 0;
+  box-sizing: border-box;
+
+  &__container{
+    width: 1604px;
+    margin: 0 auto 0 auto;
+  }
+
+  &__title{
+    font-family: 'Literata', sans-serif;
+    font-size: 71px;
+    line-height: 1.08;
+    max-width: 780px;
+    font-weight: 300;
+    color: #fff;
+    margin: 0 0 32px 0;
+  }
+
+  &__span{
+    display: flex;
+    &::before{
+      background-image: url('../../images/star.svg');
+      background-size: cover;
+      width: 56.41px;
+      height: 56.41px;
+      content: "";
+      margin: 25px 0 0 0;
+    }
+  }
+
+  &__line{
+    width: 97px;
+    height: 3px;
+    background-color: #CA7E45;
+    margin: 0 0 32px 0;
+  }
+
+  &__subtitle{
+    margin: 0 0 52px 0;
+    font-family: 'SegoeUI', sans-serif;
+    font-size: 24px;
+    line-height: 1;
+    color: #fff;
+    font-weight: 400;
+  }
+
+  &__button{
+    width: 271px;
+    height: 80px;
+    color: #fff;
+    background-color: #CA7E45;
+    border: 3px solid #CA7E45;
+    border-radius: 6px;
+    font-family: 'SegoeUI', sans-serif;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 1.33;
+    margin: 0 16px 0 0;
+    padding: 0;
+    cursor: pointer;
+    transition: all .3s ease-out;
+
+    &:hover{
+      background-color: #C99268;
+      border: 3px solid #C99268;
+      border-radius: 40px;
+    }
+
+    &_color_none{
+      background: none;
+    }
+  }
+}

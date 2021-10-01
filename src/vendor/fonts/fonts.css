@@ -1,0 +1,37 @@
+/* Roboto(firstFont)========================================================= */
+@font-face{
+  src: url('Roboto-Regular.woff2') format('woff2'),
+       url('Roboto-Regular.woff') format('woff'),
+       url('Roboto-Regular.ttf') format('ttf');
+  font-family: 'Roboto';
+  font-weight: normal;
+}
+
+/*Literata(secondFont)========================================================== */
+@font-face{
+  src: url('Literata-Light.woff2') format('woff2'),
+       url('Literata-Light.woff') format('woff'),
+       url('Literata-Light.ttf') format('ttf');
+  font-family: 'Literata';
+  font-weight: 300;
+}
+
+/*Segoe UI(thirdFont) ============================================================ */
+@font-face{
+  src: url('SegoeUI.woff2') format('woff2'),
+       url('SegoeUI.woff') format('woff'),
+       url('SegoeUI.ttf') format('ttf');
+  font-family: 'SegoeUI';
+  font-weight: normal;
+}
+
+@font-face{
+  src: url('SegoeUI-SemiBold.woff2') format('woff2'),
+       url('SegoeUI-SemiBold.woff') format('woff'),
+       url('SegoeUI-SemiBold.ttf') format('ttf');
+  font-family: 'SegoeUI';
+  font-weight: 600;
+}
+
+
+

@@ -4,6 +4,7 @@ import Banner from '../banner/Banner';
 import Key from '../key/Key';
 import Contact from '../contact/Contact';
 import Stages from '../stages/Stages';
+import StagesMobile from '../stages-mobile/StagesMobile';
 
 function Content(){
   return(
@@ -11,6 +12,7 @@ function Content(){
       <Banner />
       <Key />
       <Stages />
+      <StagesMobile />
       <Contact />
     </main>
   )

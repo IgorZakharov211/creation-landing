@@ -18,3 +18,23 @@
     margin: 0 auto 110px auto;
   }
 }
+
+@media screen and(max-width: 580px){
+  .content{
+    &__banner{
+      margin: -100px auto 64px auto;
+    }
+
+    &__key{
+      margin: 0 auto 64px auto;
+    }
+
+    &__stages-mobile{
+      margin: 0 auto 64px auto;
+    }
+
+    &__contact{
+      margin: 0 auto 64px auto;
+    }
+  }
+}

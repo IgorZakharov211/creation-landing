@@ -2,6 +2,7 @@
   width: 100%;
   background-image: url('./images/banner.jpg');
   background-size: cover;
+  background-position: center;
   height: 1046px;
   padding: 292px 0 0 0;
   box-sizing: border-box;
@@ -73,6 +74,74 @@
 
     &_color_none{
       background: none;
+    }
+  }
+}
+
+@media screen and(max-width: 1772px){
+  .banner{
+
+    &__container{
+      width: calc(100% - 168px);
+    }
+  }
+}
+
+@media screen and(max-width: 1360px){
+  .banner{
+    
+    &__container{
+      width: 1224px;
+    }
+  }
+}
+
+@media screen and(max-width: 1266px){
+  .banner{
+    
+    &__container{
+      width: calc(100% - 32px);
+    }
+  }
+}
+
+@media screen and(max-width: 580px){
+  .banner{
+    padding: 366px 0 0 0;
+    box-sizing: border-box;
+    height: 682px;
+    background-position: center;
+    
+    &__title{
+      font-size: 32px;
+      line-height: 1.2;
+      font-weight: 300;
+      max-width: 354px;
+    }
+
+    &__span{
+      &::before{
+        width: 25.52px;
+        height: 25.52px;
+        margin: 10px 0 0 0;
+      }
+    }
+
+    &__line{
+      width: 56px;
+    }
+
+    &__subtitle{
+      font-size: 16px;
+      line-height: 1.5;
+      margin: 0 0 32px 0;
+    }
+
+    &__button{
+      width: 100%;
+      height: 56px;
+      font-size: 16px;
+      line-height: 2;
     }
   }
 }

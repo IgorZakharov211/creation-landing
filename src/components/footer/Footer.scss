@@ -32,3 +32,30 @@
     text-decoration: none;
   }
 }
+
+@media screen and(max-width: 1772px){
+  .footer{
+
+    &__container{
+      width: calc(100% - 168px);
+    } 
+  }
+}
+
+@media screen and(max-width: 1360px){
+  .footer{
+    
+    &__container{
+      width: 1224px;
+    }
+  }
+}
+
+@media screen and(max-width: 1266px){
+  .footer{
+    
+    &__container{
+      width: calc(100% - 32px);
+    }
+  }
+}

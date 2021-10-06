@@ -1,0 +1,128 @@
+.stages-mobile{
+  display: none;
+}
+
+@media screen and(max-width: 580px){
+  .stages-mobile{
+    width: calc(100% - 32px);
+    display: flex;
+    flex-direction: column;
+
+    &__title{
+      font-size: 32px;
+      font-family: 'Literata', sans-serif;
+      font-weight: 300;
+      line-height: 1.5;
+      color: #fff;
+      max-width: 360px;
+      margin: 0 0 24px 0;
+    }
+
+    &__list{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      width: 100%;
+    }
+
+    &__button{
+      font-family: 'SegoeUI', sans-serif;
+      font-weight: 600;
+      color: #fff;
+      font-size: 16px;
+      line-height: 1.5;
+      background-color: #22312C;
+      height: 54px;
+      border-radius: 12px;
+      border: none;
+      width: 100%;
+      text-align: left;
+      box-sizing: border-box;
+      padding: 0 24px 0 24px;
+      cursor: pointer;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin: 0 0 8px 0;
+    }
+
+    &__name{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      height: 100%;
+      opacity: .5;
+      transition: all .2s ease-out;
+
+      &_active{
+        opacity: 1;
+      }
+    }
+
+    &__index{
+      font-family: 'SegoeUI', sans-serif;
+      color: #fff;
+      margin: 0 16px 0 0;
+      transition: all .2s ease-out;
+
+      &_active{
+        color: #CA7E45;
+      }
+    }
+
+    &__sign{
+      width: 24px;
+      margin: 25px 0 0 0;
+    }
+  
+    &__minus{
+      width: 24px;
+      height: 4px;
+      background-color:#fff;
+      border-radius: 6px;
+      margin: 0 24px 0 0;
+    }
+  
+    &__plus{
+      width: 24px;
+      height: 4px;
+      background-color: #fff;
+      border-radius: 6px;
+      margin: -4px 24px 0 0;
+      transform: rotate(90deg);
+      transition: all .2s ease-out;
+      
+      &_rotate{
+        transform: rotate(0);
+        background-color: #CA7E45;
+      }
+    }
+
+    &__show{
+      margin: -100px 0 32px 0;
+      display: none;
+      transition: all .2s ease-out;
+      opacity: 0;
+
+      &_active{
+        display: block;
+        opacity: 1;
+        margin: 16px 0 32px 0 ;
+      }
+    }
+
+    &__text{
+      font-family: 'SegoeUI', sans-serif;
+      font-size: 16px;
+      line-height: 1.5;
+      color: #fff;
+      opacity: .5;
+      margin: 0 0 16px 0;
+    }
+
+    &__img{
+      width: 100%;
+      border-radius: 12px;
+    }
+  }
+}

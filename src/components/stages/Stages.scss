@@ -66,7 +66,6 @@
     align-items: center;
     transition: all .3s ease-out;
 
-
     &::before{
       content: counter(my-counter);
       counter-increment: my-counter;
@@ -133,21 +132,25 @@
     width: 114px;
     height: 114px;
     margin: -57px 0 0 0;
+    position: relative;
+    z-index: 1;
   }
 
   &__image-border{
-    width: 1016px;
-    height: 39.764%;
+    width: 1014px;
+    height: 403px;
     margin: 64px 0 0 0;
     overflow: hidden;
     border-radius: 51px;
-    display: flex;
-    justify-content: center;
+    display: block;
+    position: relative;
   }
 
   &__image{
+    position: relative;
     width: 1016px;
-    height: 39.764%;
+    height: 405px;
+    display: block;
   }
 
   &__subtitle{
@@ -167,18 +170,19 @@
   .stages{
     width: calc(100% - 168px);
 
-
     &__window{
       width: fit-content;
     }
 
     &__image-border{
       margin: 64px 64px 0 64px;
-      width: 950px;
+      width: 948px;
+      height: 377px;
     }
 
     &__image{
       width: 950px;
+      height: 379px;
     }
 
     &__preview{
@@ -191,11 +195,13 @@
   .stages{
 
     &__image-border{
-      width: 850px;
+      width: 848px;
+      height: 337px;
     }
 
     &__image{
       width: 850px;
+      height: 339px;
     }
 
     &__subtitle{
@@ -208,12 +214,14 @@
   .stages{
 
     &__image-border{
-      width: 800px;
+      width: 798px;
+      height: 317px;
       margin: 32px 32px 0 32px;
     }
 
     &__image{
       width: 800px;
+      height: 319px;
     }
 
     &__subtitle{
@@ -237,7 +245,6 @@
         }
       }
     }
-
   }
 }
 
@@ -245,11 +252,13 @@
   .stages{
 
     &__image-border{
-      width: 700px;
+      width: 698px;
+      height: 277px;
     }
 
     &__image{
       width: 700px;
+      height: 279px;
     }
 
     &__subtitle{
@@ -274,11 +283,13 @@
   .stages{
 
     &__image-border{
-      width: 650px;
+      width: 648px;
+      height: 257px;
     }
 
     &__image{
       width: 650px;
+      height: 259px;
     }
 
     &__subtitle{
@@ -331,10 +342,12 @@
 
     &__image-border{
       width: calc(100% - 64px);
+      height: 39vw;
     }
 
     &__image{
-      width: 100%;
+      width: calc(100% + 2px);
+      height: 40vw;
     }
   }
 }
@@ -351,13 +364,12 @@
   
       &:nth-of-type(11){
         padding: 0;
-
       }
     }
 
     &__title{
       margin: 0 0 32px 0;
-      width: 600px;
+      width: 580px;
     }
 
     &__subtitle{
@@ -370,7 +382,7 @@
   .stages{
 
     &__title{
-      width: 550px;
+      width: 520px;
     }
 
     &__subtitle{
@@ -381,6 +393,10 @@
 
 @media screen and(max-width: 620px){
   .stages{
+
+    &__title{
+      width: 500px;
+    }
 
     &__list{
       grid-auto-flow: row;

@@ -28,6 +28,7 @@ function Contact(){
       <div className="contact__vektor-container">
         <div className="contact__vektor_left"></div>
         <div className="contact__vektor_right"></div>
+        <div className="contact__vektor_mobile"></div>
       </div>
     </section>
   )

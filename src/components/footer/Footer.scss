@@ -11,6 +11,10 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
+
+    &_mobile{
+      display: none;
+    }
   }
 
   &__copyright{
@@ -20,6 +24,10 @@
     line-height: 1.19;
     color: #fff;
     font-weight: 400;
+
+    &_mobile{
+      display: none;
+    }
   }
 
   &__link{
@@ -28,8 +36,27 @@
     line-height: 1.3;
     color: #fff;
     font-weight: 400;
-    margin: 0;
+    margin: 0 24px 0 0;
     text-decoration: none;
+  }
+
+  &__icon{
+    width: 45px;
+    height: 45px;
+  }
+
+  &__social{
+    margin: 0 16px 0 0;
+
+    &:last-of-type{
+      margin: 0;
+    }
+  }
+
+  &__info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
 }
 
@@ -56,6 +83,33 @@
     
     &__container{
       width: calc(100% - 32px);
+    }
+  }
+}
+
+@media screen and(max-width: 580px){
+  .footer{
+
+    &__copyright{
+      display: none;
+
+      &_mobile{
+        display: block;
+      }
+    }
+
+    &__container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      &_mobile{
+        display: flex;
+        height: 80px;
+        width: calc(100%);
+        background-color: #152622;
+        margin: 0;
+      }
     }
   }
 }

@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "./static/css/main.6638024e.chunk.css",
+    "main.js": "./static/js/main.7a144a56.chunk.js",
+    "main.js.map": "./static/js/main.7a144a56.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.9b0c53f6.js",
+    "runtime-main.js.map": "./static/js/runtime-main.9b0c53f6.js.map",
+    "static/js/2.49265ecc.chunk.js": "./static/js/2.49265ecc.chunk.js",
+    "static/js/2.49265ecc.chunk.js.map": "./static/js/2.49265ecc.chunk.js.map",
+    "static/js/3.5026f395.chunk.js": "./static/js/3.5026f395.chunk.js",
+    "static/js/3.5026f395.chunk.js.map": "./static/js/3.5026f395.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.6638024e.chunk.css.map": "./static/css/main.6638024e.chunk.css.map",
+    "static/js/2.49265ecc.chunk.js.LICENSE.txt": "./static/js/2.49265ecc.chunk.js.LICENSE.txt",
+    "static/media/Img1.34613778.jpg": "./static/media/Img1.34613778.jpg",
+    "static/media/Img10.b75f7a0d.jpg": "./static/media/Img10.b75f7a0d.jpg",
+    "static/media/Img11.4072c10a.jpg": "./static/media/Img11.4072c10a.jpg",
+    "static/media/Img2.395333e4.jpg": "./static/media/Img2.395333e4.jpg",
+    "static/media/Img3.5ce16e5c.jpg": "./static/media/Img3.5ce16e5c.jpg",
+    "static/media/Img4.4ce53baa.jpg": "./static/media/Img4.4ce53baa.jpg",
+    "static/media/Img5.4e561d5a.jpg": "./static/media/Img5.4e561d5a.jpg",
+    "static/media/Img6.bb96ae10.jpg": "./static/media/Img6.bb96ae10.jpg",
+    "static/media/Img7.2455041e.jpg": "./static/media/Img7.2455041e.jpg",
+    "static/media/Img8.ebb81327.jpg": "./static/media/Img8.ebb81327.jpg",
+    "static/media/Img9.c8312d76.jpg": "./static/media/Img9.c8312d76.jpg",
+    "static/media/index.css": "./static/media/SegoeUI.fe28f0fe.woff2",
+    "static/media/Banner.scss": "./static/media/banner.c78fc515.jpg",
+    "static/media/inst.d994950a.svg": "./static/media/inst.d994950a.svg",
+    "static/media/Contact.scss": "./static/media/right.839a6141.svg",
+    "static/media/logo.db7b6841.svg": "./static/media/logo.db7b6841.svg",
+    "static/media/Key.scss": "./static/media/safe.308da923.svg",
+    "static/media/Stages.scss": "./static/media/whiteStar.8ff866a7.svg",
+    "static/media/teleg.1ecc87a4.svg": "./static/media/teleg.1ecc87a4.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b0c53f6.js",
+    "static/js/2.49265ecc.chunk.js",
+    "static/css/main.6638024e.chunk.css",
+    "static/js/main.7a144a56.chunk.js"
+  ]
+}

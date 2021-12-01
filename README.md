@@ -18,4 +18,4 @@
 
 ## Ссылка на проект: 
 
-*https://igorzakharov211.github.io/creation-landing/*
+*https://creationlanding.zakharovigor.ru/*
